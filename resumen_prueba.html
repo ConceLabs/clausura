@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen de Datos de Víctimas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #eef2f7;
+            margin: 0;
+            padding: 2em;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 1.5em;
+            border-bottom: 3px solid #b0c4de;
+            padding-bottom: 0.5em;
+        }
+        .accordion {
+            background-color: #f1f1f1;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 1.3em;
+            transition: 0.4s;
+            border-radius: 5px;
+            margin-top: 10px;
+            border-left: 5px solid #6c757d;
+        }
+        .accordion.active, .accordion:hover {
+            background-color: #d6eaf8;
+        }
+        .accordion.active {
+             border-left: 5px solid #3498db;
+        }
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            border-bottom: 1px solid #ddd;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 1em;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #34495e;
+            color: white;
+            font-size: 1.1em;
+            width: 35%;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .back-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            font-size: 0.9em;
+            background: #e0e0e0;
+            padding: 0.5em 1em;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="victimas.html" class="back-button">🔙 Volver</a>
+        <h1>Resumen de Datos de Víctimas</h1>
+
+        <button class="accordion">Víctima: DIANA (DCGP)</button>
+        <div class="panel">
+            <table>
+                <tbody>
+<tr><th>INICIALES</th><td>DCGP</td></tr>
+<tr><th>PRIMER NOMBRE</th><td>DIANA</td></tr>
+<tr><th>NOMBRE DE FANTASIA</th><td>VALENTINA</td></tr>
+<tr><th>NACIONALIDAD</th><td>VENEZOLANA</td></tr>
+<tr><th>RRSS</th><td>SI</td></tr>
+<tr><th>PUBLICACION</th><td>SI</td></tr>
+<tr><th>GIRO DE DINERO</th><td>SI; 16/2 CALLAO; 21-25-26-28/2 Y 3/3 TACNA, PERU</td></tr>
+<tr><th>FECHA LLEGADA A CONCEPCIÓN</th><td>MARZO 022</td></tr>
+<tr><th>AUTODENUNCIA</th><td>SI; DECLARA INGRESO A CHILE 11.MAR.022</td></tr>
+<tr><th>CÉDULA</th><td>SÍ, EN AUTODENUNCIA; PC DE JOSETTE; DECLARACIÓN</td></tr>
+<tr><th>DECLARACIÓN</th><td>SI, INDICA INGRESAR A CHILE EL 11.MAR.022</td></tr>
+<tr><th>TRANSCRIPCIÓN</th><td>ANEXO 25, 03.MAY.022</td></tr>
+<tr><th>OTROS</th><td>EXTRACCIÓN TELEFONO MARY, FOTOS NO PUBLICACION 07.ABR.022</td></tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <button class="accordion">Víctima: GENESIS F (GGGFS)</button>
+        <div class="panel">
+            <table>
+                <tbody>
+<tr><th>INICIALES</th><td>GGGFS</td></tr>
+<tr><th>PRIMER NOMBRE</th><td>GENESIS F</td></tr>
+<tr><th>NOMBRE DE FANTASIA</th><td>DESCONOCIDA</td></tr>
+<tr><th>NACIONALIDAD</th><td>VENEZOLANA</td></tr>
+<tr><th>RRSS</th><td>SI</td></tr>
+<tr><th>PUBLICACION</th><td>NO; EXTRACCIÓN TELÉFONO MARY, MANTIENE FOTOGRAFIAS DE PUBLICACIÓN 27-28/5; 14/6</td></tr>
+<tr><th>GIRO DE DINERO</th><td>NO</td></tr>
+<tr><th>FECHA LLEGADA A CONCEPCIÓN</th><td>MARZO 022</td></tr>
+<tr><th>AUTODENUNCIA</th><td>SI; DECLARA INGRESO A CHILE 11.MAR.022</td></tr>
+<tr><th>CÉDULA</th><td>SI, EN AUTODENUNCIA; DECLARACIÓN</td></tr>
+<tr><th>DECLARACIÓN</th><td>SÍ, INDICA INGRESAR A CHILE EL 11.MAR.022 CON DIANA</td></tr>
+<tr><th>TRANSCRIPCIÓN</th><td>ANEXO 23, 30.ABR.022; ANEXO 25, 03.MAY.022</td></tr>
+<tr><th>OTROS</th><td>EXTRACCIÓN TELEFONO MARY, FOTOS NO PUBLICACION 07.ABR.022</td></tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <button class="accordion">Víctima: BARBARA (BHAU)</button>
+        <div class="panel">
+            <table>
+                <tbody>
+<tr><th>INICIALES</th><td>BHAU</td></tr>
+<tr><th>PRIMER NOMBRE</th><td>BARBARA</td></tr>
+<tr><th>NOMBRE DE FANTASIA</th><td>DOLLY/ALEJANDRA</td></tr>
+<tr><th>NACIONALIDAD</th><td>VENEZOLANA</td></tr>
+<tr><th>RRSS</th><td>SI</td></tr>
+<tr><th>PUBLICACION</th><td>SI; EXTRACCION FONO MARY FOTO PUBLICACIONES 5/4</td></tr>
+<tr><th>GIRO DE DINERO</th><td>SI; 2/3 YOPAL, COLOMBIA</td></tr>
+<tr><th>FECHA LLEGADA A CONCEPCIÓN</th><td>ABRIL 022</td></tr>
+<tr><th>AUTODENUNCIA</th><td>SI; DECLARA INICIO VIAJE 29.MAR.022; PERO INGRESO EL 01.MAR.022</td></tr>
+<tr><th>CÉDULA</th><td>SI, EN AUTODENUNCIA; PC DE JOSETTE</td></tr>
+<tr><th>DECLARACIÓN</th><td>NO</td></tr>
+<tr><th>TRANSCRIPCIÓN</th><td>ANEXO 23, 30.ABR.022; ANEXO 25, 03.MAY.022</td></tr>
+<tr><th>OTROS</th><td>EXTRACCIÓN TELEFONO MARY, FOTOS NO PUBLICACION 07.ABR.022</td></tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <button class="accordion">Víctima: JERMARY (JDAS)</button>
+        <div class="panel">
+            <table>
+                <tbody>
+<tr><th>INICIALES</th><td>JDAS</td></tr>
+<tr><th>PRIMER NOMBRE</th><td>JERMARY</td></tr>
+<tr><th>NOMBRE DE FANTASIA</th><td>ANNA</td></tr>
+<tr><th>NACIONALIDAD</th><td>VENEZOLANA</td></tr>
+<tr><th>RRSS</th><td>SI</td></tr>
+<tr><th>PUBLICACION</th><td>SI; EXTRACCION FONO MARY FOTO PUBLICACIONES 5/4; 15-20-27/7</td></tr>
+<tr><th>GIRO DE DINERO</th><td>NO</td></tr>
+<tr><th>FECHA LLEGADA A CONCEPCIÓN</th><td>ABRIL 022</td></tr>
+<tr><th>AUTODENUNCIA</th><td>SI; DECLARA INGRESO A CHILE EL 01.ABR.022</td></tr>
+<tr><th>CÉDULA</th><td>SI; AUTODENUNCIA, DECLARACIÓN, TELEFONO MARY; PC DE JOSETTE; INFORME VENEZUELA</td></tr>
+<tr><th>DECLARACIÓN</th><td>SI, INDICA VIAJAR CON BARBARA A CHILE; MANIFIESA SER VICTIMA</td></tr>
+<tr><th>TRANSCRIPCIÓN</th><td>ANEXO 21, 23.ABR.022; ANEXO 35, 29.MAY.022</td></tr>
+<tr><th>OTROS</th><td>EXTRACCIÓN TELEFONO MARY, FOTOS NO PUBLICACION 07.ABR.022</td></tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <button class="accordion">Víctima: MILANGELA (MAMR)</button>
+        <div class="panel">
+            <table>
+                <tbody>
+<tr><th>INICIALES</th><td>MAMR</td></tr>
+<tr><th>PRIMER NOMBRE</th><td>MILANGELA</td></tr>
+<tr><th>NOMBRE DE FANTASIA</th><td>MIA</td></tr>
+<tr><th>NACIONALIDAD</th><td>VENEZOLANA</td></tr>
+<tr><th>RRSS</th><td>SI; OBTENCION INDIVIDUALIZACIÓN HIJA NACIDA 27/11/2022 EN IQQ; CERTIFICADO DE NACIMIENTO </td></tr>
+<tr><th>PUBLICACION</th><td>SI; EXTRACCION FONO MARY FOTO PUBLICACION 4/7</td></tr>
+<tr><th>GIRO DE DINERO</th><td>NO</td></tr>
+<tr><th>FECHA LLEGADA A CONCEPCIÓN</th><td>25.ABR.022; 27.ABR.022 EN ANIBAL PINTO</td></tr>
+<tr><th>AUTODENUNCIA</th><td>NO</td></tr>
+<tr><th>CÉDULA</th><td>SÍ; PASE VACUNACIÓN 14/5 (EXTRACCIÓN FONO MARY)</td></tr>
+<tr><th>DECLARACIÓN</th><td>NO</td></tr>
+<tr><th>TRANSCRIPCIÓN</th><td>ANEXO 23, 30.ABR.022; ANEXO 26, 05.MAY.022; ANEXO 35, 29.MAY.022</td></tr>
+<tr><th>OTROS</th><td>ANEXO 23, INICIO TRABAJO 28.ABR.022 EN ANIBAL PINTO; CONVERSACIÓN JOSETTE-FELIPE: 25/4 FELIPE SOLICITA HABITACION A MILA QUE LLEGÓ; 26/4, MARIO OFRECE HABITACIÓN; 27/4 FELIPE LLEVA A MILANGELA; </td></tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <button class="accordion">Víctima: DANNA MICHEL (DMRS)</button>
+        <div class="panel">
+            <table>
+                <tbody>
+<tr><th>INICIALES</th><td>DMRS</td></tr>
+<tr><th>PRIMER NOMBRE</th><td>DANNA MICHEL</td></tr>
+<tr><th>NOMBRE DE FANTASIA</th><td>VALERY/MIA</td></tr>
+<tr><th>NACIONALIDAD</th><td>COLOMBIANA</td></tr>
+<tr><th>RRSS</th><td>SI</td></tr>
+<tr><th>PUBLICACION</th><td>SI; EXTRACCION FONO MARY FOTO PUBLICACIÓN 30/5</td></tr>
+<tr><th>GIRO DE DINERO</th><td>SI; 9/5, MEDELLIN, COLOMBIA</td></tr>
+<tr><th>FECHA LLEGADA A CONCEPCIÓN</th><td>29.MAY.022</td></tr>
+<tr><th>AUTODENUNCIA</th><td>SI, DECLARA INGRESAR A CHILE EL 25.MAY.022</td></tr>
+<tr><th>CÉDULA</th><td>SI; AUTODENUNCIA, PASAJES COMPRADOS POR JOSETTE (CONVERSACION JOSETTE/FELIPE); PC DE JOSETTE; FONO MARY</td></tr>
+<tr><th>DECLARACIÓN</th><td>NO</td></tr>
+<tr><th>TRANSCRIPCIÓN</th><td>ANEXO 32, 23.MAY.022 (EN CAMINO); ANEXO 33, 24.MAY.022 (LLEGARÁN HOY); ANEXO 36, 30.MAY.022 (NIÑAS NUEVAS CONOCIENDO CASA)</td></tr>
+<tr><th>OTROS</th><td>CHAT JOSETTE-FELIPE, COMPRA DE PASAJES STGO-COC 28/5, 23:57 HRS;  EXTRACCION FONO MARY FOTO NO PUBLICACIONES 30.MAY.022</td></tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <button class="accordion">Víctima: FRANGELITH (FARS)</button>
+        <div class="panel">
+            <table>
+                <tbody>
+<tr><th>INICIALES</th><td>FARS</td></tr>
+<tr><th>PRIMER NOMBRE</th><td>FRANGELITH</td></tr>
+<tr><th>NOMBRE DE FANTASIA</th><td>CATALINA</td></tr>
+<tr><th>NACIONALIDAD</th><td>VENEZOLANA</td></tr>
+<tr><th>RRSS</th><td>SI</td></tr>
+<tr><th>PUBLICACION</th><td>SI; EXTRACCION FONO MARY FOTO PUBLICACIÓN 30/5; 30/7; 3/8; 22/8; 1/9</td></tr>
+<tr><th>GIRO DE DINERO</th><td>NO</td></tr>
+<tr><th>FECHA LLEGADA A CONCEPCIÓN</th><td>29.MAY.022</td></tr>
+<tr><th>AUTODENUNCIA</th><td>SI, DECLARA INGRESAR A CHILE EL 25.MAY.022</td></tr>
+<tr><th>CÉDULA</th><td>SI; AUTODENUNCIA, PASAJES COMPRADOS POR JOSETTE (CONVERSACION JOSETTE/FELIPE); PC DE JOSETTE; FONO MARY</td></tr>
+<tr><th>DECLARACIÓN</th><td>NO</td></tr>
+<tr><th>TRANSCRIPCIÓN</th><td>ANEXO 32, 23.MAY.022 (EN CAMINO); ANEXO 33, 24.MAY.022 (LLEGARÁN HOY); ANEXO 36, 30.MAY.022 (NIÑAS NUEVAS CONOCIENDO CASA)</td></tr>
+<tr><th>OTROS</th><td>CHAT JOSETTE-FELIPE, COMPRA DE PASAJES STGO-COC 28/5, 23:57 HRS;  EXTRACCION FONO MARY FOTO NO PUBLICACIONES 30.MAY.022</td></tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <button class="accordion">Víctima: YINLIG (YATH)</button>
+        <div class="panel">
+            <table>
+                <tbody>
+<tr><th>INICIALES</th><td>YATH</td></tr>
+<tr><th>PRIMER NOMBRE</th><td>YINLIG</td></tr>
+<tr><th>NOMBRE DE FANTASIA</th><td>MELANY</td></tr>
+<tr><th>NACIONALIDAD</th><td>VENEZOLANA</td></tr>
+<tr><th>RRSS</th><td>SI</td></tr>
+<tr><th>PUBLICACION</th><td>SI; EXTRACCION FONO MARY FOTO PUBLICACIÓN 2/7; 1/8; 4/8</td></tr>
+<tr><th>GIRO DE DINERO</th><td>NO</td></tr>
+<tr><th>FECHA LLEGADA A CONCEPCIÓN</th><td>30.JUN.022</td></tr>
+<tr><th>AUTODENUNCIA</th><td>NO</td></tr>
+<tr><th>CÉDULA</th><td>SI; PASAJE COMPRADO POR JOSETTE, FELIPE ENVIA FOTO CEDULA (CONVERSACIÓN JOSETTE/FELIPE); PASE DE VACUNACION DEL FONO DE MARY</td></tr>
+<tr><th>DECLARACIÓN</th><td>NO</td></tr>
+<tr><th>TRANSCRIPCIÓN</th><td>ANEXO 85, 11.AGO.022</td></tr>
+<tr><th>OTROS</th><td>CHAT JOSETTE-FELIPE, COMPRA DE PASAJES STGO-COC 29/6, 23:15 HRS;  EXTRACCION FONO MARY FOTO NO PUBLICACIONES 30.MAY.022; MENSAJE TEXTO FISCALIA CENTRO NORTE, INDIVIDUALIZACION</td></tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <button class="accordion">Víctima: SILVANA NAZARETH (SNLRG)</button>
+        <div class="panel">
+            <table>
+                <tbody>
+<tr><th>INICIALES</th><td>SNLRG</td></tr>
+<tr><th>PRIMER NOMBRE</th><td>SILVANA NAZARETH</td></tr>
+<tr><th>NOMBRE DE FANTASIA</th><td>VALENTINA/VIVIANA</td></tr>
+<tr><th>NACIONALIDAD</th><td>VENEZOLANA</td></tr>
+<tr><th>RRSS</th><td>SI</td></tr>
+<tr><th>PUBLICACION</th><td>SI</td></tr>
+<tr><th>GIRO DE DINERO</th><td>NO</td></tr>
+<tr><th>FECHA LLEGADA A CONCEPCIÓN</th><td>JULIO/AGOSTO 2020</td></tr>
+<tr><th>AUTODENUNCIA</th><td>NO</td></tr>
+<tr><th>CÉDULA</th><td>SI; CHAT DE JOSETTE; EXTRACCION FONO MARY</td></tr>
+<tr><th>DECLARACIÓN</th><td>NO</td></tr>
+<tr><th>TRANSCRIPCIÓN</th><td>ANEXO 86, 06.SEP.022; ANEXO 87, 07.SEP.022</td></tr>
+<tr><th>OTROS</th><td>---</td></tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <button class="accordion">Víctima: MARIANYELIS (MPP)</button>
+        <div class="panel">
+            <table>
+                <tbody>
+<tr><th>INICIALES</th><td>MPP</td></tr>
+<tr><th>PRIMER NOMBRE</th><td>MARIANYELIS</td></tr>
+<tr><th>NOMBRE DE FANTASIA</th><td>CAMILA</td></tr>
+<tr><th>NACIONALIDAD</th><td>VENEZOLANA</td></tr>
+<tr><th>RRSS</th><td>SI</td></tr>
+<tr><th>PUBLICACION</th><td>SI</td></tr>
+<tr><th>GIRO DE DINERO</th><td>NO</td></tr>
+<tr><th>FECHA LLEGADA A CONCEPCIÓN</th><td>JULIO/AGOSTO 2021</td></tr>
+<tr><th>AUTODENUNCIA</th><td>NO</td></tr>
+<tr><th>CÉDULA</th><td>NO</td></tr>
+<tr><th>DECLARACIÓN</th><td>NO</td></tr>
+<tr><th>TRANSCRIPCIÓN</th><td>ANEXO 86, 06.SEP.022; ANEXO 87, 07.SEP.022</td></tr>
+<tr><th>OTROS</th><td>---</td></tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <button class="accordion">Víctima: GENESIS M (GEMS)</button>
+        <div class="panel">
+            <table>
+                <tbody>
+<tr><th>INICIALES</th><td>GEMS</td></tr>
+<tr><th>PRIMER NOMBRE</th><td>GENESIS M</td></tr>
+<tr><th>NOMBRE DE FANTASIA</th><td>PAOLA/VIVIANA</td></tr>
+<tr><th>NACIONALIDAD</th><td>VENEZOLANA</td></tr>
+<tr><th>RRSS</th><td>SI</td></tr>
+<tr><th>PUBLICACION</th><td>SI; EXTRACCION FONO MARY FOTO PUBLICACIÓN 5/9</td></tr>
+<tr><th>GIRO DE DINERO</th><td>NO</td></tr>
+<tr><th>FECHA LLEGADA A CONCEPCIÓN</th><td>JULIO/AGOSTO 2022</td></tr>
+<tr><th>AUTODENUNCIA</th><td>NO</td></tr>
+<tr><th>CÉDULA</th><td>SI; DECLARACIÓN</td></tr>
+<tr><th>DECLARACIÓN</th><td>SI; INGRESO A CHILE MAYO 2022, DOS MESES DESPUES SE FUE A COC CON SILVANA Y MARIANYELIS</td></tr>
+<tr><th>TRANSCRIPCIÓN</th><td>ANEXO 86, 06.SEP.022; ANEXO 87, 07.SEP.022</td></tr>
+<tr><th>OTROS</th><td>DECLARACION MANIFIESTA QUE MARY LA RECIBO EN ANIBAL PINTO; SABIA DE LAS MUJERES MULTADAS, FELIPE TDA</td></tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <button class="accordion">Víctima: DORIANNY (DVVM)</button>
+        <div class="panel">
+            <table>
+                <tbody>
+<tr><th>INICIALES</th><td>DVVM</td></tr>
+<tr><th>PRIMER NOMBRE</th><td>DORIANNY</td></tr>
+<tr><th>NOMBRE DE FANTASIA</th><td>MARIANA</td></tr>
+<tr><th>NACIONALIDAD</th><td>VENEZOLANA</td></tr>
+<tr><th>RRSS</th><td>NO</td></tr>
+<tr><th>PUBLICACION</th><td>SI</td></tr>
+<tr><th>GIRO DE DINERO</th><td>NO</td></tr>
+<tr><th>FECHA LLEGADA A CONCEPCIÓN</th><td>07.SEP.022</td></tr>
+<tr><th>AUTODENUNCIA</th><td>NO</td></tr>
+<tr><th>CÉDULA</th><td>SI; DECLARACIÓN; EXTRACCION FONO MARY 08/9; PLANILLA EMEBUS</td></tr>
+<tr><th>DECLARACIÓN</th><td>SI; DESCONOCE Y NIEGA CONOCER A LUIS FELIPE, SER RECIBIDA, TRASLADADA Y ACOGIDA POR FELIPE.</td></tr>
+<tr><th>TRANSCRIPCIÓN</th><td>PISTA 6174, 07.SEP.022, LLEGÓ A CONCEPCIÓN</td></tr>
+<tr><th>OTROS</th><td>PLANILLA EMEBUS; SET FOTO TERMINAL DE BUSES 7/9; SET FOTO CAMARAS DEL EMEBUS 7/9; VIGILANCIA 7/9; EXTRACCION FONO MARY FOTOS NO PUBLICACION 27/9</td></tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <button class="accordion">Víctima: DARIANNYS (DGPA)</button>
+        <div class="panel">
+            <table>
+                <tbody>
+<tr><th>INICIALES</th><td>DGPA</td></tr>
+<tr><th>PRIMER NOMBRE</th><td>DARIANNYS</td></tr>
+<tr><th>NOMBRE DE FANTASIA</th><td>NICOL</td></tr>
+<tr><th>NACIONALIDAD</th><td>VENEZOLANA</td></tr>
+<tr><th>RRSS</th><td>SI</td></tr>
+<tr><th>PUBLICACION</th><td>SI</td></tr>
+<tr><th>GIRO DE DINERO</th><td>NO</td></tr>
+<tr><th>FECHA LLEGADA A CONCEPCIÓN</th><td>27.SEP.022</td></tr>
+<tr><th>AUTODENUNCIA</th><td>NO</td></tr>
+<tr><th>CÉDULA</th><td>SI; PLANILLA BUS VIAJE</td></tr>
+<tr><th>DECLARACIÓN</th><td>NO</td></tr>
+<tr><th>TRANSCRIPCIÓN</th><td>PISTA 6450, 27.SEP.022, LLEGÓ A CONCEPCIÓN</td></tr>
+<tr><th>OTROS</th><td>PLANILLA EMEBUS; SET FOTO TERMINAL DE BUSES 27/9; VIGILANCIA 27/9; EXTRACCION FONO MARY FOTOS NO PUBLICACION 30/9</td></tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <button class="accordion">Víctima: ELIANA (EMPC)</button>
+        <div class="panel">
+            <table>
+                <tbody>
+<tr><th>INICIALES</th><td>EMPC</td></tr>
+<tr><th>PRIMER NOMBRE</th><td>ELIANA</td></tr>
+<tr><th>NOMBRE DE FANTASIA</th><td>MIA</td></tr>
+<tr><th>NACIONALIDAD</th><td>VENEZOLANA</td></tr>
+<tr><th>RRSS</th><td>SI</td></tr>
+<tr><th>PUBLICACION</th><td>SI</td></tr>
+<tr><th>GIRO DE DINERO</th><td>NO</td></tr>
+<tr><th>FECHA LLEGADA A CONCEPCIÓN</th><td>16.OCT.022</td></tr>
+<tr><th>AUTODENUNCIA</th><td>NO</td></tr>
+<tr><th>CÉDULA</th><td>SI; ESCUCHA 14079 DICTAN DNI; TELEFONO MARY</td></tr>
+<tr><th>DECLARACIÓN</th><td>NO</td></tr>
+<tr><th>TRANSCRIPCIÓN</th><td>ANEXO 154, 17.OCT.022, LA CHAMA QUE LLEGÓ ANOCHE</td></tr>
+<tr><th>OTROS</th><td>EXTRACCION FONO MARY FOTOS NO PUBLICACION 14/11</td></tr>
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+for (var i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
